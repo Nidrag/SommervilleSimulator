@@ -1,0 +1,125 @@
+/*******************************************************************************
+ *                                                                             *
+ * Scroll Bar			                                                       *
+ *                                                                             *
+ ******************************************************************************/
+
+.scroll-bar:vertical > .track-background, .scroll-bar:horizontal > .track-background {
+    -fx-background-color: #F1F1F1;
+    -fx-background-insets: 0.0;
+}
+
+.scroll-bar:vertical > .thumb, .scroll-bar:horizontal > .thumb {
+    -fx-background-color: #BCBCBC;
+    -fx-background-insets: 0.0;
+    -fx-background-radius: 1.0;
+}
+
+.scroll-bar > .increment-button, .scroll-bar > .decrement-button {
+    -fx-padding: 5 2 5 2;
+}
+
+.scroll-bar > .increment-button, .scroll-bar > .decrement-button, .scroll-bar:hover > .increment-button, .scroll-bar:hover > .decrement-button {
+    -fx-background-color: transparent;
+}
+
+.scroll-bar > .increment-button > .increment-arrow, .scroll-bar > .decrement-button > .decrement-arrow {
+    -fx-background-color: rgb(150.0, 150.0, 150.0);
+}
+
+.scroll-bar > .increment-button > .increment-arrow {
+    -fx-shape: "M298 426h428l-214 214z";
+}
+
+.scroll-bar > .decrement-button > .decrement-arrow {
+    -fx-shape: "M298 598l214-214 214 214h-428z";
+}
+
+/*******************************************************************************
+ *                                                                             *
+ * Scroll Pane			                                                       *
+ *                                                                             *
+ ******************************************************************************/
+
+
+
+.jfx-scroll-pane .main-header {
+	-fx-background-color: #1ab3ce;
+}
+
+.jfx-scroll-pane .condensed-header {
+	-fx-background-color: #1ab3ce;
+}
+
+
+
+
+.jfx-list-view:selected{
+    -fx-background-color: transparent;
+}
+
+.jfx-list-view:empty {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent
+}
+ 
+.jfx-list-view:hover{
+    -fx-background-color: transparent;
+}
+ 
+.jfx-list-view:selected{
+    -fx-background-color: transparent;
+}
+
+.jfx-list-view:focused{
+    -fx-background-color: transparent;
+}
+
+.jfx-list-view{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+/*******************************************************************************
+*                                                                              *
+* JFX List View                                                                *
+*                                                                              *
+*******************************************************************************/
+
+.jfx-list-cell {
+    -fx-background-insets: 0.0;
+    -fx-text-fill: BLACK;
+}
+
+.jfx-list-cell:odd,
+.jfx-list-cell:even {
+    -fx-background-color: WHITE;
+}
+
+.jfx-list-cell:filled:hover,
+.jfx-list-cell:selected .label {
+    -fx-text-fill: black;
+}
+
+.jfx-list-cell .jfx-rippler {
+    -jfx-rippler-fill: WHITE;
+}
+
+.jfx-list-cell:odd:selected > .jfx-rippler > StackPane,
+.jfx-list-cell:even:selected > .jfx-rippler > StackPane {
+    -fx-background-color: WHITE;
+}
+
+
+/*******************************************************************************
+*                                                                              *
+* Spinner                                                                      *
+*                                                                              *
+*******************************************************************************/
+
+.percentage {
+    -fx-font-size: 16.0px;
+    -fx-fill: transparent;
+}
+ 
+ 
