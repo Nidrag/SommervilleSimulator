@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import com.jfoenix.validation.*?>
+<?import de.jensd.fx.glyphs.fontawesome.*?>
+
+<AnchorPane fx:id="anchorTelaEntrada" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="786.0" prefWidth="1366.0" style="-fx-background-color: #ff803a;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.menu.TelaEntradaController">
+   <children>
+      <Label layoutX="401.0" layoutY="263.0" style="-fx-font-family: &quot;Century Gothic&quot;; -fx-font-weight: bold;" text=" SIMULATOR" textFill="WHITE">
+         <font>
+            <Font size="100.0" />
+         </font>
+      </Label>
+      <Label layoutX="351.0" layoutY="167.0" style="-fx-font-family: &quot;Century Gothic&quot;; -fx-font-weight: bold;" text="SOMMERVILLE" textFill="WHITE">
+         <font>
+            <Font size="100.0" />
+         </font>
+      </Label>
+      <JFXSpinner layoutX="539.0" layoutY="414.0" nodeOrientation="RIGHT_TO_LEFT" opacity="0.54" prefHeight="214.0" prefWidth="308.0">
+         <effect>
+            <ColorAdjust brightness="1.0" />
+         </effect>
+      </JFXSpinner>
+      <JFXSpinner layoutX="611.0" layoutY="445.0" opacity="0.16" prefHeight="153.0" prefWidth="165.0">
+         <effect>
+            <ColorAdjust brightness="1.0" />
+         </effect>
+      </JFXSpinner>
+      <JFXButton fx:id="btnEntrar" layoutX="657.0" layoutY="484.0" onAction="#btnEntrarOnAction" />
+   </children>
+</AnchorPane>

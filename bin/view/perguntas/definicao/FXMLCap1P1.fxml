@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import com.jfoenix.controls.*?>
+
+<AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="460.0" prefWidth="890.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.perguntas.definicao.Cap1P1Controller">
+	<children>
+		<JFXButton fx:id="proximaPerguntaButton" layoutX="380.0" layoutY="218.0" onAction="#proximaPerguntaOnAction" style="-fx-background-color: RED;" text="PROXIMA PERGUNTA" />
+      <JFXCheckBox layoutX="8.0" layoutY="13.0" />
+      <JFXCheckBox layoutX="8.0" layoutY="437.0" />
+      <JFXCheckBox layoutX="864.0" layoutY="13.0" />
+      <JFXCheckBox layoutX="864.0" layoutY="437.0" />
+    </children>
+</AnchorPane>
