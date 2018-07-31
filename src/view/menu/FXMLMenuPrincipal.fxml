@@ -191,6 +191,9 @@
                </children>
          	</Pane>
          </children>
+         <effect>
+            <DropShadow color="#00000099" offsetX="3.0" offsetY="3.0" spread="0.21" />
+         </effect>
       </Pane>
    </children>
 </AnchorPane>

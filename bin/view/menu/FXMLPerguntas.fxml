@@ -20,14 +20,14 @@
 
 <AnchorPane fx:id="anchorPerguntas" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="786.0" prefWidth="1366.0" style="-fx-background-color: #ff803a;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.menu.PerguntasController">
    <children>
-      <Pane fx:id="panePerguntas" layoutX="238.0" layoutY="145.0" prefHeight="496.0" prefWidth="890.0" style="-fx-background-color: #ffffff;">
+      <Pane fx:id="panePerguntas" layoutX="238.0" layoutY="145.0" prefHeight="495.0" prefWidth="890.0" style="-fx-background-color: #ffffff;">
          <children>
             <JFXTabPane fx:id="tabPanePerguntas" layoutY="-1.0" prefHeight="496.0" prefWidth="890.0">
                <tabs>
                   
                </tabs>
             </JFXTabPane>
-            <Pane layoutY="40.0" prefHeight="41.0" prefWidth="890.0" style="-fx-background-color: #1ab3ce;">
+            <Pane prefHeight="41.0" prefWidth="890.0" style="-fx-background-color: #1ab3ce;">
                <children>
                   <Label layoutX="106.0" layoutY="10.0" text="Capitulo 1 - Engenharia de software baseada em componentes, P1" textFill="WHITE">
                      <font>
@@ -64,6 +64,9 @@
                </children>
          	</Pane>
          </children>
+         <effect>
+            <DropShadow color="#00000099" offsetX="3.0" offsetY="3.0" spread="0.21" />
+         </effect>
       </Pane>
    </children>
 </AnchorPane>
